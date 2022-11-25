@@ -4,7 +4,7 @@ import {useRouter} from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function liste(props) {
+export default function Liste(props) {
     // SVG
     const one = <Image
         src="/images/002numberone.svg"
