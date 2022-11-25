@@ -1,0 +1,143 @@
+{
+  "recettes": [
+    {
+      "name": "Gâteau au chocolat",
+      "img" : "/images/chococake.jpg",
+      "data": [
+        {
+          "img" : "/images/chococake.jpg",
+          "tpsPrepa": "30min",
+          "tpsCuisson": "20min",
+          "ingredients": [
+            {
+              "name": "Chocolat",
+              "qty": "300gr"
+            },
+            {
+              "name": "Beurre",
+              "qty": "100gr"
+            },
+            {
+              "name": "Farine",
+              "qty": "200gr"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Mettez tout dans un bol assez grand pour tout contenir."},
+            {
+              "etpNbr": 2,
+              "etp": "Mélangez le tout vivement et pas comme un connard."},
+            {
+              "etpNbr": 3,
+              "etp": "Mettez tout dans un moule (et pas UNE moule) et enfournez-moi tout ça pour le temps indiqué."}
+          ]
+        }
+      ]
+
+    },
+    {
+      "name": "Velouté de potiron",
+      "img" : "/images/potiron.webp",
+      "data": [
+        {
+          "img" : "/images/potiron.webp",
+          "tpsPrepa": "30min",
+          "tpsCuisson": "45min",
+          "ingredients": [
+            {
+              "name": "Oignon",
+              "qty": "x1"
+            },
+            {
+              "name": "Huile",
+              "qty": "x2 cuillères à soupe"
+            },
+            {
+              "name": "Persil haché",
+              "qty": "200gr"
+            },
+            {
+              "name": "Quartier de potiron",
+              "qty": "x1"
+            },
+            {
+              "name": "Brique de crème fraîche liquide",
+              "qty": "x1"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Couper la chair du potiron en gros dés."},
+            {
+              "etpNbr": 2,
+              "etp": "Couper l'oignon en lamelles et le faire revenir dans une cocotte avec un peu d'huile."},
+            {
+              "etpNbr": 3,
+              "etp": "Ajouter les dés de courge dans la cocotte et recouvrir d'eau (juste au niveau de la courge, pas plus). Laisser bouillir environ 45 min à 1 h."},
+            {
+              "etpNbr": 4,
+              "etp": "Ajouter la crème liquide, saler, poivrer et ajouter de la muscade selon votre goût. Mixer."},
+            {
+              "etpNbr": 5,
+              "etp": "Au moment de servir, parsemer de persil ciselé."}
+          ]
+        }
+      ]
+
+    },
+    {
+      "name": "Tarte aux restes",
+      "img" : "/images/tartatout.jpg",
+      "data": [
+        {
+          "img" : "/images/tartatout.jpg",
+          "tpsPrepa": "5min",
+          "tpsCuisson": "15min",
+          "ingredients": [
+            {
+              "name": "Pâte brisée",
+              "qty": "x1"
+            },
+            {
+              "name": "Crème fraîche",
+              "qty": "25cl"
+            },
+            {
+              "name": "Beurre",
+              "qty": "10gr"
+            },
+            {
+              "name": "Oeufs",
+              "qty": "x3"
+            },
+            {
+              "name": "Sel & Poivre",
+              "qty": ""
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Préchauffez le four à 200°C (thermsostat 6-7)."},
+            {
+              "etpNbr": 2,
+              "etp": "Beurrez un moule à tarte, puis y étaler votre pâte."},
+            {
+              "etpNbr": 3,
+              "etp": "Garnissez avec vos restes de la veille."},
+            {
+              "etpNbr": 4,
+              "etp": "Dans un bol, battez les oeufs et la crème fraîche, salez et poivrez"},
+            {
+              "etpNbr": 5,
+              "etp": "Versez le tout sur vos restes dans le moule et enfournez durant 15 minutes."}
+          ]
+        }
+      ]
+
+    }
+  ]
+}

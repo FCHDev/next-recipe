@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&family=Poppins&display=swap');
+
+.navbar {
+    padding: 12px;
+    width: 100%;
+    background-color: #0070f3;
+    color: white;
+}
+
+.navbarItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 428px){
+    .navbarItems {
+        justify-content: space-around;
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .navbarItems {
+        justify-content: space-around;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .navbar {
+        padding: 11px;
+        width: 100%;
+        background-color: #0070f3;
+        color: white;
+        margin-bottom: 3vh;
+    }
+}
