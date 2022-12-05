@@ -21,14 +21,17 @@ const Index = (props) => {
             <div className="flex flex-wrap w-full justify-evenly items-center">
                 {props.array.map(item => (
                     <Link key={v4()} href={`./listes/${item.name}`}
-                          className="md:h-full md:w-1/5 w-2/5 h-[180px] flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center">
+                          className="md:h-full md:w-1/5 w-2/5  flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center relative">
                         <Image
                             src={item.img}
                             alt={item.name}
-                            layout="fill"
-                            // width={250}
-                            // height={250}
-                            className="rounded-xl image"/>
+                            // layout="responsive"
+                            // width={400}
+                            // height={400}
+                            fill
+                            className="rounded-xl image"
+                            priority
+                        />
 
                         {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
 
