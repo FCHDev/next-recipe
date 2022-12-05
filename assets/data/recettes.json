@@ -2,10 +2,10 @@
   "recettes": [
     {
       "name": "Gâteau au chocolat",
-      "img" : "/images/chococake.jpg",
+      "img": "/images/chococake.jpg",
       "data": [
         {
-          "img" : "/images/chococake.jpg",
+          "img": "/images/chococake.jpg",
           "tpsPrepa": "30min",
           "tpsCuisson": "20min",
           "ingredients": [
@@ -25,24 +25,26 @@
           "etapes": [
             {
               "etpNbr": 1,
-              "etp": "Mettez tout dans un bol assez grand pour tout contenir."},
+              "etp": "Mettez tout dans un bol assez grand pour tout contenir."
+            },
             {
               "etpNbr": 2,
-              "etp": "Mélangez le tout vivement et pas comme un connard."},
+              "etp": "Mélangez le tout vivement et pas comme un connard."
+            },
             {
               "etpNbr": 3,
-              "etp": "Mettez tout dans un moule (et pas UNE moule) et enfournez-moi tout ça pour le temps indiqué."}
+              "etp": "Mettez tout dans un moule (et pas UNE moule) et enfournez-moi tout ça pour le temps indiqué."
+            }
           ]
         }
       ]
-
     },
     {
       "name": "Velouté de potiron",
-      "img" : "/images/potiron.webp",
+      "img": "/images/potiron.webp",
       "data": [
         {
-          "img" : "/images/potiron.webp",
+          "img": "/images/potiron.webp",
           "tpsPrepa": "30min",
           "tpsCuisson": "45min",
           "ingredients": [
@@ -70,30 +72,76 @@
           "etapes": [
             {
               "etpNbr": 1,
-              "etp": "Couper la chair du potiron en gros dés."},
+              "etp": "Couper la chair du potiron en gros dés."
+            },
             {
               "etpNbr": 2,
-              "etp": "Couper l'oignon en lamelles et le faire revenir dans une cocotte avec un peu d'huile."},
+              "etp": "Couper l'oignon en lamelles et le faire revenir dans une cocotte avec un peu d'huile."
+            },
             {
               "etpNbr": 3,
-              "etp": "Ajouter les dés de courge dans la cocotte et recouvrir d'eau (juste au niveau de la courge, pas plus). Laisser bouillir environ 45 min à 1 h."},
+              "etp": "Ajouter les dés de courge dans la cocotte et recouvrir d'eau (juste au niveau de la courge, pas plus). Laisser bouillir environ 45 min à 1 h."
+            },
             {
               "etpNbr": 4,
-              "etp": "Ajouter la crème liquide, saler, poivrer et ajouter de la muscade selon votre goût. Mixer."},
+              "etp": "Ajouter la crème liquide, saler, poivrer et ajouter de la muscade selon votre goût. Mixer."
+            },
             {
               "etpNbr": 5,
-              "etp": "Au moment de servir, parsemer de persil ciselé."}
+              "etp": "Au moment de servir, parsemer de persil ciselé."
+            }
           ]
         }
       ]
-
+    },
+    {
+      "name": "Poulet yaourt & citron",
+      "img": "/images/pouletyaourt.jpeg",
+      "data": [
+        {
+          "img": "/images/pouletyaourt.jpeg",
+          "tpsPrepa": "10min",
+          "tpsCuisson": "20min",
+          "ingredients": [
+            {
+              "name": "Escalopes de poulet",
+              "qty": "x6"
+            },
+            {
+              "name": "Citron vert",
+              "qty": "jus et zeste"
+            },
+            {
+              "name": "Yaourts nature",
+              "qty": "x2"
+            },
+            {
+              "name": "Set & poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Une heure avant la cuisson, coupez les blancs de poulet en dés d’environ 3 cm de côté. Mettez-les dans un saladier. Ajoutez les 2 yaourts, le zeste du citron vert, salez et poivrez. Mélangez et réservez au réfrigérateur pendant environ 1 heure."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Une heure après, préchauffez votre four à 150°C. Étalez les dés de poulet sur une plaque de cuisson anti adhésive ou dans un plat mais il ne faut pas que le poulet soit sur plusieurs épaisseurs. Enfournez pour 15 minutes. Vérifiez la cuisson du poulet en coupant un dé en deux. Suivant la taille, il peut mettre 5 minutes de plus à cuire."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "A la sortie du four, pressez le jus du citron vert sur le poulet, salez et poivrez à nouveau. Accompagnez de légumes puis, servez bien chaud."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Tarte aux restes",
-      "img" : "/images/tartatout.jpg",
+      "img": "/images/tartatout.jpg",
       "data": [
         {
-          "img" : "/images/tartatout.jpg",
+          "img": "/images/tartatout.jpg",
           "tpsPrepa": "5min",
           "tpsCuisson": "15min",
           "ingredients": [
@@ -121,23 +169,155 @@
           "etapes": [
             {
               "etpNbr": 1,
-              "etp": "Préchauffez le four à 200°C (thermsostat 6-7)."},
+              "etp": "Préchauffez le four à 200°C (thermsostat 6-7)."
+            },
             {
               "etpNbr": 2,
-              "etp": "Beurrez un moule à tarte, puis y étaler votre pâte."},
+              "etp": "Beurrez un moule à tarte, puis y étaler votre pâte."
+            },
             {
               "etpNbr": 3,
-              "etp": "Garnissez avec vos restes de la veille."},
+              "etp": "Garnissez avec vos restes de la veille."
+            },
             {
               "etpNbr": 4,
-              "etp": "Dans un bol, battez les oeufs et la crème fraîche, salez et poivrez"},
+              "etp": "Dans un bol, battez les oeufs et la crème fraîche, salez et poivrez"
+            },
             {
               "etpNbr": 5,
-              "etp": "Versez le tout sur vos restes dans le moule et enfournez durant 15 minutes."}
+              "etp": "Versez le tout sur vos restes dans le moule et enfournez durant 15 minutes."
+            }
           ]
         }
       ]
-
+    },
+    {
+      "name": "Beignets aux pommes",
+      "img": "/images/beignetpommes.jpeg",
+      "data": [
+        {
+          "img": "/images/beignetpommes.jpeg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "10min",
+          "ingredients": [
+            {
+              "name": "Pommes",
+              "qty": "x4"
+            },
+            {
+              "name": "Farine",
+              "qty": "250gr"
+            },
+            {
+              "name": "Oeufs",
+              "qty": "x2"
+            },
+            {
+              "name": "Sucre en poudre",
+              "qty": "150gr"
+            },
+            {
+              "name": "Lait",
+              "qty": "25cl"
+            },
+            {
+              "name": "Huile de tournesol",
+              "qty": "2 c-à-s"
+            },
+            {
+              "name": "Cannelle en poudre",
+              "qty": "2 c-à-c"
+            },
+            {
+              "name": "Sel",
+              "qty": "une pincée"
+            },
+            {
+              "name": "Huile de friture"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Dans un saladier, mettez la farine et la pincée de sel puis creusez un puits pour y casser le premier oeuf et mélangez. Faites de même pour le second oeuf. Ajoutez finalement le lait et l'huile de tournesol, mélangez bien jusqu'à obtenir une pâte lisse et homogène. Couvrez ensuite d'un linge et laissez la pâte à beignets reposer pendant une heure."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Pelez les pommes, retirez le coeur et coupez-les en rondelles épaisses."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Déposez les rondelles de pomme dans un petit saladier contenant le sucre et la cannelle, et mélangez bien."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Trempez ensuite les rondelles dans la pâte et plongez-les sans attendre dans l'huile de friture très chaude."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Lorsque les beignets ont une belle coloration, égouttez-les sur du papier absorbant et laissez-les refroidir seulement quelques minutes avant de déguster."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quiche chèvre & saumon",
+      "img": "/images/quichesaumonchevre.jpeg",
+      "data": [
+        {
+          "img": "/images/quichesaumonchevre.jpeg",
+          "tpsPrepa": "10min",
+          "tpsCuisson": "40min",
+          "ingredients": [
+            {
+              "name": "Saumon frais",
+              "qty": "250gr"
+            },
+            {
+              "name": "Pâte feuilletée",
+              "qty": "1 rouleau"
+            },
+            {
+              "name": "Oeufs",
+              "qty": "x5"
+            },
+            {
+              "name": "Chèvre",
+              "qty": "(1 bûche)"
+            },
+            {
+              "name": "Crème fraiche épaisse",
+              "qty": "20cl"
+            },
+            {
+              "name": "Aneth",
+              "qty": "5 brins"
+            },
+            {
+              "name": "Sel 1 Poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Préchauffez le four à 180°. Etalez la pâte feuilletée dans un moule à tarte."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Dans un grand récipient, écrasez le chèvre à l'aide d'une fourchette. Incorporez progressivement les oeufs."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Découpez le saumon en dés. Ciselez l'aneth. Ajoutez à la préparation la crème, les dés de saumon, l'aneth, le sel et le poivre. Mélangez le tout."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Versez la préparation sur la pâte feuilletée. Enfournez durant 40 minutes. Servez chaud ou tiède."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

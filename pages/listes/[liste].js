@@ -49,8 +49,8 @@ export default function Liste(props) {
 
     return (
         <div className="container min-h-screen flex flex-col justify-center items-center mx-auto md:bg-white">
-            <h1 className="text-blue-600 text-5xl text-center mt-2 mb-5 mx-0 font-[Kanit]">
-                {router.query.liste.charAt(0).toUpperCase() + router.query.liste.slice(1)}
+            <h1 className="text-blue-600 md:text-5xl text-4xl text-center md:mt-2 md:mb-5 my-5 mx-0 font-[Kanit]">
+                {router.query.liste}
             </h1>
 
             {props.listeEnCours.map(item => (
@@ -77,7 +77,7 @@ export default function Liste(props) {
                         <ul className="text-xl">
                             {item.ingredients.map(ingredient => (
                                 <li key={v4()}>
-                                    {ingredient.name} ({ingredient?.qty})
+                                    {ingredient.name} {ingredient.qty ? `(${ingredient.qty})` : ""}
                                 </li>
                             ))}
                         </ul>
@@ -131,16 +131,12 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
     const data = await import('/assets/data/recettes.json')
-    const path = data.recettes.map(item => ({
+    const paths = data.recettes.map(item => ({
         params: {liste: item.name}
     }))
 
     return {
-        paths: [
-            {params: {liste: "Gâteau au chocolat"}},
-            {params: {liste: "Velouté de potiron"}},
-            {params: {liste: "Tarte aux restes"}}
-        ],
+        paths,
         fallback: false
     }
 }
