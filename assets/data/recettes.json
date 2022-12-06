@@ -295,7 +295,7 @@
               "qty": "5 brins"
             },
             {
-              "name": "Sel 1 Poivre"
+              "name": "Sel & Poivre"
             }
           ],
           "etapes": [
@@ -314,6 +314,130 @@
             {
               "etpNbr": 4,
               "etp": "Versez la préparation sur la pâte feuilletée. Enfournez durant 40 minutes. Servez chaud ou tiède."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poulet à la crème de poivron",
+      "img": "/images/pouletpoivron.jpeg",
+      "data": [
+        {
+          "img": "/images/pouletpoivron.jpeg",
+          "tpsPrepa": "15min",
+          "tpsCuisson": "30min",
+          "ingredients": [
+            {
+              "name": "Blancs de poulet",
+              "qty": "x4 soit 480gr"
+            },
+            {
+              "name": "Poivrons rouges",
+              "qty": "x2 soit 320gr"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Sel & Poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Laver, épépiner et découper les poivrons en deux. Recouvrir une plaque de papier sulfurisé. Déposer les moitiés de poivrons sur le papier sulfurisé, la partie avec la peau tournée vers le haut. Enfourner sous le grill du four durant 20 minutes."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Lorsque la peau a commencé à noircir, retirer les poivrons du four. Laisser refroidir ceux-ci avant de les peler."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Découper le poulet en gros morceaux. Faire dorer ceux-ci dans une poêle avec un peu d'huile d'olive durant une dizaine de minutes."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Durant la cuisson du poulet, mixer les poivrons avec 2 cuillères à soupe d'eau et 1 cuillère à soupe d'huile d'olive."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Verser la crème de poivrons dans la poêle avec le poulet. Faire chauffer le tout à feu doux en remuant à l'aide d'une spatule. Saler et poivrer. Servir chaud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maccheronis à la carbonara",
+      "img": "/images/maccheronicarbonara.jpg",
+      "data": [
+        {
+          "img": "/images/maccheronicarbonara.jpg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "10min",
+          "ingredients": [
+            {
+              "name": "Maccheronis",
+              "qty": "300gr"
+            },
+            {
+              "name": "Ricotta",
+              "qty": "250gr"
+            },
+            {
+              "name": "Crème fraîche",
+              "qty": "20cl"
+            },
+            {
+              "name": "Lardons",
+              "qty": "100gr"
+            },
+            {
+              "name": "Oignon",
+              "qty": "x1"
+            },
+            {
+              "name": "Jaunes d'oeuf",
+              "qty": "x4"
+            },
+            {
+              "name": "Parmesan râpé",
+              "qty": "40gr"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Noix de muscade",
+              "qty": "1 pincée"
+            },
+            {
+              "name": "Sel & Poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Faire cuire les maccheronis dans une casserole d'eau bouillante salée selon le temps indiqué sur le sachet puis les égoutter."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Dans un saladier, mélanger la crème fraîche avec les jaunes d'oeufs à l'aide d'un fouet. Ajouter le parmesan, une pincée de noix de muscade, du sel et du poivre."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Eplucher et émincer finement l'oignon. Dans une poêle avec de l'huile d'olive, faire revenir les oignons puis ajouter les lardons."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Incorporer les lardons et les oignons dans le mélange d'oeufs et de crème fraîche, puis verser cette préparation sur les maccheronis."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Ajouter la ricotta, mélanger puis servir chaud les maccheronis à la carbonara."
             }
           ]
         }
