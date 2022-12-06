@@ -59,7 +59,8 @@ export default function Liste(props) {
                         src={item.img}
                         height={400}
                         width={400}
-                        priority={true}
+                        priority
+                        loading="eager"
                         alt={router.query.liste}
                         className="rounded-xl mb-3"/>
 

@@ -9,6 +9,7 @@ export default function Home() {
         alt="cooking chef"
         width={600}
         height={600}
+        priority
         className="md:mt-10 mt-28"/>
 
     return (
