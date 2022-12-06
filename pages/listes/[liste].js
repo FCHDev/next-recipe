@@ -54,15 +54,16 @@ export default function Liste(props) {
             </h1>
 
             {props.listeEnCours.map(item => (
-                <div className="w-full px-2 md:w-[450px] flex flex-col justify-center items-center" key={v4()}>
+                <div className="px-2 md:w-[450px] h-auto flex flex-col justify-center items-center" key={v4()}>
                     <Image
                         src={item.img}
-                        height={400}
-                        width={400}
+                        // height={400}
+                        // width={400}
+                        fill
                         priority
                         loading="eager"
                         alt={router.query.liste}
-                        className="rounded-xl mb-3"/>
+                        className="rounded-xl mb-3 image"/>
 
                     <div className="text-lg">
                         Temps de préparation : {item.tpsPrepa}
