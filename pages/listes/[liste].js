@@ -79,7 +79,9 @@ export default function Liste(props) {
                         <ul className="text-xl">
                             {item.ingredients.map(ingredient => (
                                 <li key={v4()}>
-                                    {ingredient.name} {ingredient.qty ? `(${ingredient.qty})` : ""}
+                                    {ingredient.name} {ingredient.qty
+                                    ? <em className="text-base"> ({ingredient.qty})</em>
+                                : ""}
                                 </li>
                             ))}
                         </ul>

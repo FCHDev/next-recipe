@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "create-next-app": "^13.0.2",
     "init": "^0.1.2",
     "next": "13.0.2",

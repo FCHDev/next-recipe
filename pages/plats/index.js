@@ -15,7 +15,7 @@ const Index = (props) => {
             </Head>
 
             <h1 className="hidden md:block text-blue-600 text-center text-5xl mt-5 mb-10 mx-0 md:pl-3 font-[Lobster]">
-                Toutes les recettes
+                Plats
             </h1>
 
             <div className="flex flex-wrap w-full justify-evenly mt-5 md:mt-0">
@@ -47,7 +47,9 @@ export default Index;
 
 export async function getStaticProps() {
     const data = await import('../../assets/data/recettes.json')
-    const array = data.recettes;
+    const array = data.recettes.filter(recette => recette.type === "plat");
+
+    console.log(array)
 
     return {
         props: {array}

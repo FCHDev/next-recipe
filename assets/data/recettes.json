@@ -3,6 +3,7 @@
     {
       "name": "Gâteau au chocolat",
       "img": "/images/chococake.jpg",
+      "type": "dessert",
       "data": [
         {
           "img": "/images/chococake.jpg",
@@ -42,6 +43,7 @@
     {
       "name": "Velouté de potiron",
       "img": "/images/potiron.webp",
+      "type": "soupe",
       "data": [
         {
           "img": "/images/potiron.webp",
@@ -97,6 +99,7 @@
     {
       "name": "Poulet yaourt & citron",
       "img": "/images/pouletyaourt.jpeg",
+      "type": "plat",
       "data": [
         {
           "img": "/images/pouletyaourt.jpeg",
@@ -139,6 +142,7 @@
     {
       "name": "Tarte aux restes",
       "img": "/images/tartatout.jpg",
+      "type": "plat",
       "data": [
         {
           "img": "/images/tartatout.jpg",
@@ -194,6 +198,7 @@
     {
       "name": "Beignets aux pommes",
       "img": "/images/beignetpommes.jpeg",
+      "type": "dessert",
       "data": [
         {
           "img": "/images/beignetpommes.jpeg",
@@ -264,6 +269,7 @@
     {
       "name": "Quiche chèvre & saumon",
       "img": "/images/quichesaumonchevre.jpeg",
+      "type": "plat",
       "data": [
         {
           "img": "/images/quichesaumonchevre.jpeg",
@@ -322,6 +328,7 @@
     {
       "name": "Poulet à la crème de poivron",
       "img": "/images/pouletpoivron.jpeg",
+      "type": "plat",
       "data": [
         {
           "img": "/images/pouletpoivron.jpeg",
@@ -372,6 +379,7 @@
     {
       "name": "Maccheronis à la carbonara",
       "img": "/images/maccheronicarbonara.jpg",
+      "type": "plat",
       "data": [
         {
           "img": "/images/maccheronicarbonara.jpg",
@@ -438,6 +446,65 @@
             {
               "etpNbr": 5,
               "etp": "Ajouter la ricotta, mélanger puis servir chaud les maccheronis à la carbonara."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Croque-Monsieur Saumon light",
+      "img": "/images/corquemonsieurlight.webp",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/corquemonsieurlight.webp",
+          "tpsPrepa": "5min",
+          "tpsCuisson": "5min",
+          "ingredients": [
+            {
+              "name": "Pain de mie complet",
+              "qty": "min. 2 tranches"
+            },
+            {
+              "name": "Fromage frais",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Tomate",
+              "qty": "x1"
+            },
+            {
+              "name": "Aneth",
+              "qty": "1 branche"
+            },
+            {
+              "name": "Saumon fumée",
+              "qty": "min. 1 tranche"
+            },
+            {
+              "name": "Salade",
+              "qty": "2 feuilles"
+            },
+            {
+              "name": "Margarine à 25% (ou beurre 😉)",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Sel & Poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Étalez le fromage frais sur une des faces de chaque tranche de pain de mie et ajoutez quelques brins d'aneth puis une feuille de salade. Disposez par dessus une tranche de saumon et 2 rondelles de tomate. Poivrez puis refermez le croque monsieur avec une tranche de pain de mie."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Faites fondre au micro-ondes la margarine et badigeonnez-en le recto et le verso de chaque croque-monsieur, à l'aide d'un pinceau."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Faites dorer les croque-monsieurs dans le four, en mode grill, pendant 5 min environ. Attention à ne pas les brûler : cela va très vite !"
             }
           ]
         }
