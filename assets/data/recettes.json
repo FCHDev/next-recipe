@@ -11,30 +11,46 @@
           "tpsCuisson": "20min",
           "ingredients": [
             {
-              "name": "Chocolat",
-              "qty": "300gr"
+              "name": "Chocolat noir",
+              "qty": "200gr"
             },
             {
               "name": "Beurre",
-              "qty": "100gr"
+              "qty": "100gr + 10gr"
             },
             {
-              "name": "Farine",
-              "qty": "200gr"
+              "name": "Oeufs",
+              "qty": "x3"
+            },
+            {
+              "name": "Farine (ou poudre d'amandes)",
+              "qty": "50gr"
+            },
+            {
+              "name": "Levure chimique",
+              "qty": "1 sachet"
+            },
+            {
+              "name": "Sucre en poudre",
+              "qty": "75gr"
             }
           ],
           "etapes": [
             {
               "etpNbr": 1,
-              "etp": "Mettez tout dans un bol assez grand pour tout contenir."
+              "etp": "Beurrez le moule."
             },
             {
               "etpNbr": 2,
-              "etp": "Mélangez le tout vivement et pas comme un connard."
+              "etp": "Coupez le beurre en dés et cassez le chocolat en morceaux. Mettez le tout dans un saladier et faites fondre au bain marie ou doucement au micro-ondes."
             },
             {
               "etpNbr": 3,
-              "etp": "Mettez tout dans un moule (et pas UNE moule) et enfournez-moi tout ça pour le temps indiqué."
+              "etp": "Dans un autre saladier, fouettez les oeufs et le sucre puis ajoutez, toujours en fouettant, la poudre d’amandes et la levure chimique. Quand vous avez bien remué, ajoutez le mélange beurre-chocolat."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Versez dans le moule et enfournez pour 15 minutes de cuisson dans un four préchauffé à 180°C, chaleur tournante. Au bout de ce laps de temps, plongez la lame d’un couteau au coeur du gâteau. Si elle ressort humide, prolongez la cuisson de 5 minutes."
             }
           ]
         }

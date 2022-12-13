@@ -6,6 +6,17 @@ import Image from "next/image";
 
 const Index = (props) => {
 
+    // TRI PAR NOM DE RECETTE
+    props.array.sort(function compare(a, b) {
+        if (a.name < b.name)
+            return -1;
+        if (a.name > b.name)
+            return 1;
+        return 0;
+    });
+
+    console.log(props.array)
+
     return (
         <div>
             <Head>
@@ -21,7 +32,9 @@ const Index = (props) => {
             </Link>
 
             <div className="flex flex-wrap w-full md:w-3/4 md:mx-auto justify-evenly mt-5 md:mt-0">
-                {props.array.map(item => (
+                {props.array
+                    // .sort((a, b) => b.name - a.name)
+                    .map(item => (
                     <Link key={v4()} href={`./listes/${item.name}`}
                           className="md:h-auto md:w-[300px] w-2/5 flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center relative">
                         <Image

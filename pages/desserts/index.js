@@ -5,6 +5,14 @@ import Head from "next/head";
 import Image from "next/image";
 
 const Index = (props) => {
+    // TRI PAR NOM DE RECETTE
+    props.array.sort(function compare(a, b) {
+        if (a.name < b.name)
+            return -1;
+        if (a.name > b.name)
+            return 1;
+        return 0;
+    });
 
     return (
         <div>
