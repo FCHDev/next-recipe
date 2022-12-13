@@ -1,9 +1,16 @@
 import React from 'react';
 import Link from 'next/link'
 import styles from './Navbar.module.css'
+import data from "../assets/data/recettes.json"
 
 
-const Navbar = ({platsNb, dessertsNb, soupeNb}) => {
+const Navbar = () => {
+
+    const list = data.recettes
+   
+    const platsNb = list.filter(item => item.type === "plat").length
+    const soupesNb = list.filter(item => item.type === "soupe").length
+    const dessertsNb = list.filter(item => item.type === "dessert").length
 
     return (
         <div className={styles.navbar}>
@@ -15,7 +22,7 @@ const Navbar = ({platsNb, dessertsNb, soupeNb}) => {
                     Plats <span className="hidden md:inline text-base">({platsNb})</span>
                 </Link>
                 <Link href="/soupes">
-                    Soupes <span className="hidden md:inline text-base">({soupeNb})</span>
+                    Soupes <span className="hidden md:inline text-base">({soupesNb})</span>
                 </Link>
                 <Link href="/desserts">
                     Desserts <span className="hidden md:inline text-base">({dessertsNb})</span>

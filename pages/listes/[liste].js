@@ -4,6 +4,7 @@ import {useRouter} from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
+
 export default function Liste(props) {
     // SVG
     const one = <Image
@@ -36,6 +37,12 @@ export default function Liste(props) {
         height={15}
         width={15}
         className="svg-sizes"/>
+    // const checked = <Image
+    //     src="/images/checked.svg"
+    //     alt="checked ingredient"
+    //     height={10}
+    //     width={10}
+    //     className="svg-sizes-ingredients"/>
 
 
     const router = useRouter()
@@ -78,10 +85,13 @@ export default function Liste(props) {
                         </div>
                         <ul className="text-xl">
                             {item.ingredients.map(ingredient => (
-                                <li key={v4()}>
+                                <li key={v4()} className="flex items-center md:w-3/4 justify-between">
+                                   {/*<span>*/}
+                                   {/*    {checked}*/}
+                                   {/*</span>*/}
                                     {ingredient.name} {ingredient.qty
-                                    ? <em className="text-base"> ({ingredient.qty})</em>
-                                : ""}
+                                    ? <em className="text-base"> {ingredient.qty}</em>
+                                    : ""}
                                 </li>
                             ))}
                         </ul>

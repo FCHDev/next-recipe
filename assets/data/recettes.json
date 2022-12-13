@@ -509,6 +509,78 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Soupe de légumes",
+      "img": "/images/soupelegumes.jpg",
+      "type": "soupe",
+      "data": [
+        {
+          "img": "/images/soupelegumes.jpg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "1h30",
+          "ingredients": [
+            {
+              "name": "Pommes de terre",
+              "qty": "500gr"
+            },
+            {
+              "name": "Courgettes",
+              "qty": "x1"
+            },
+            {
+              "name": "Carottes",
+              "qty": "x4"
+            },
+            {
+              "name": "Blancs de poireaux",
+              "qty": "x3"
+            },
+            {
+              "name": "Navets",
+              "qty": "x4"
+            },
+            {
+              "name": "Brins de céleri",
+              "qty": "x2"
+            },
+            {
+              "name": "Concentré de tomate",
+              "qty": "x1 boîte"
+            },
+            {
+              "name": "Eau",
+              "qty": "1,5L"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "2 c-à-s"
+            },
+            {
+              "name": "Sel & Poivre",
+              "qty": " "
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Epluchez l’oignon et ciselez-le. Epluchez les légumes qui le nécessitent, lavez les tous et coupez-les en dés."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Versez l’huile d’olive dans une cocotte. Faites la chauffer puis faites-y suer 5 minutes les oignons et le céleri. Laissez chauffer légèrement puis ajoutez tous les autres légumes, le concentré de tomates, le sel et l’eau."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Laissez cuire 1h30 à découvert."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "On peut également ajouter un peu de crème fraîche pour tuer le game ! 🤘"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
