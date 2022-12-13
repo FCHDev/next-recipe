@@ -14,11 +14,13 @@ const Index = (props) => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <h1 className="hidden md:block text-blue-600 text-center text-5xl mt-5 mb-10 mx-0 md:pl-3 font-[Lobster]">
-                Toutes les recettes
-            </h1>
+            <Link href="/admin">
+                <h1 className="hidden md:block text-blue-600 text-center text-5xl mt-5 mb-10 mx-0 md:pl-3 font-[Lobster]">
+                    Toutes les recettes
+                </h1>
+            </Link>
 
-            <div className="flex flex-wrap w-full justify-evenly mt-5 md:mt-0">
+            <div className="flex flex-wrap w-full md:w-3/4 md:mx-auto justify-evenly mt-5 md:mt-0">
                 {props.array.map(item => (
                     <Link key={v4()} href={`./listes/${item.name}`}
                           className="md:h-auto md:w-[300px] w-2/5 flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center relative">

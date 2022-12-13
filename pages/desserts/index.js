@@ -19,17 +19,17 @@ const Index = (props) => {
             </h1>
 
 
-            <div className="flex flex-wrap w-full justify-evenly mt-5 md:mt-0">
+            <div className="flex flex-wrap w-full md:w-3/4 md:mx-auto justify-evenly mt-5 md:mt-0">
                 {props.array.map(item => (
                     <Link key={v4()} href={`./listes/${item.name}`}
-                          className="md:h-auto md:w-1/5 w-2/5 flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center">
+                          className="md:h-auto md:w-[300px] w-2/5 flex flex-col list-none md:text-xl text-sm text-gray-800 text-center md:mx-1 md:mb-8 mb-4 font-[Prompt] items-center relative">
                         <Image
                             src={item.img}
                             alt={item.name}
                             // width={400}
                             // height={400}
                             fill
-                            // sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"
+                            sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"
                             className="rounded-xl image"
                             loading="eager"
                             priority

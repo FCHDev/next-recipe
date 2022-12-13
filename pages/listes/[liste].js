@@ -55,40 +55,51 @@ export default function Liste(props) {
 
 
     return (
-        <div className="container min-h-screen flex flex-col justify-center items-center mx-auto md:bg-white">
+        <div className="container min-h-screen flex flex-col justify-center items-center mx-auto pt-3 md:bg-white">
             <h1 className="text-blue-600 md:text-5xl text-4xl text-center md:mt-2 md:mb-5 my-5 mx-0 font-[Kanit]">
                 {router.query.liste}
             </h1>
 
             {props.listeEnCours.map(item => (
-                <div className="px-2 md:w-[450px] h-auto flex flex-col justify-center items-center" key={v4()}>
+                <div className="px-2 md:w-[550px] h-auto flex flex-col justify-center items-center relative" key={v4()}>
                     <Image
                         src={item.img}
                         // height={400}
                         // width={400}
+                        sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"
                         fill
                         priority
                         loading="eager"
                         alt={router.query.liste}
-                        className="rounded-xl mb-3 image"/>
+                        className="rounded-xl mb-5 image"/>
+                    <div className="flex justify-evenly w-3/4">
+                        <div className="text-lg flex flex-col justify-center items-center">
+                            <span className="font-bold text-blue-600">Préparation</span>
+                            <span>{item.tpsPrepa}</span>
+                        </div>
+                        <div className="text-lg flex flex-col justify-center items-center">
+                            <span className="font-bold text-blue-600">Cuisson</span>
+                            <span>{item.tpsCuisson}</span>
+                        </div>
+                    </div>
 
-                    <div className="text-lg">
-                        Temps de préparation : {item.tpsPrepa}
-                    </div>
-                    <div className="text-lg">
-                        Temps de cuisson : {item.tpsCuisson}
-                    </div>
 
                     <div className="mt-5 w-full">
-                        <div className="text-2xl mb-3 font-bold">
-                            Ingrédients
+                        <div className="flex justify-between">
+                            <div className="text-2xl mb-3 font-bold">
+                                Ingrédients
+                            </div>
+                            <div className="text-2xl mb-3 font-bold">
+                                Quantités
+                            </div>
                         </div>
-                        <ul className="text-xl">
+
+                        <ul className="text-xl md:w-full w-4/5 mx-auto">
                             {item.ingredients.map(ingredient => (
-                                <li key={v4()} className="flex items-center md:w-3/4 justify-between">
-                                   {/*<span>*/}
-                                   {/*    {checked}*/}
-                                   {/*</span>*/}
+                                <li key={v4()} className="flex items-center justify-between">
+                                    {/*<span>*/}
+                                    {/*    {checked}*/}
+                                    {/*</span>*/}
                                     {ingredient.name} {ingredient.qty
                                     ? <em className="text-base"> {ingredient.qty}</em>
                                     : ""}
@@ -97,7 +108,7 @@ export default function Liste(props) {
                         </ul>
                     </div>
 
-                    <div className="mt-5 w-full">
+                    <div className="mt-8 w-full">
                         <div className="text-2xl mb-3 font-bold">
                             Préparation
                         </div>

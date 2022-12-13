@@ -581,6 +581,202 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Soupe de tomates et poivrons",
+      "img": "/images/soupetomates.jpg",
+      "type": "soupe",
+      "data": [
+        {
+          "img": "/images/soupetomates.jpg",
+          "tpsPrepa": "30min",
+          "tpsCuisson": "1h",
+          "ingredients": [
+            {
+              "name": "Tomates",
+              "qty": "2kg"
+            },
+            {
+              "name": "Poivrons rouges",
+              "qty": "x3"
+            },
+            {
+              "name": "Gousses d'ail",
+              "qty": "x5"
+            },
+            {
+              "name": "Sel",
+              "qty": "1 c-à-c"
+            },
+            {
+              "name": "Sucre",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "4 c-à-s"
+            },
+            {
+              "name": "Origan",
+              "qty": "1 c-à-s"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Lavez les tomates et ôtez leurs pédoncules. Coupez-les en morceaux. Fendez les poivron en deux, ôtez le pédoncule, les côtes blanches à l’intérieur et les pépins puis coupez les en dés. Pelez les gousses d’ail."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Mettez le tout dans un plat et enfournez dans un four préchauffé à 180°C pour 1 heure de cuisson."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Au bout d’une heure, mettez le tout dans le blender, ajoutez le sucre, le sel et mixez."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Servez (et ajoutez des olives noires concassées pour tuer le game !)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cake au yaourt",
+      "img": "/images/cakeyaourt.jpg",
+      "type": "dessert",
+      "data": [
+        {
+          "img": "/images/cakeyaourt.jpg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "40min",
+          "ingredients": [
+            {
+              "name": "Yaourt nature",
+              "qty": "x1"
+            },
+            {
+              "name": "Sucre vanillé",
+              "qty": "1 sachet"
+            },
+            {
+              "name": "Huile d'olive douce",
+              "qty": "2/3 de pot"
+            },
+            {
+              "name": "Levure",
+              "qty": "1 demi sachet"
+            },
+            {
+              "name": "Sucre de canne",
+              "qty": "2 pots"
+            },
+            {
+              "name": "Farine",
+              "qty": "3 pots"
+            },
+            {
+              "name": "Oeufs",
+              "qty": "x3"
+            },
+            {
+              "name": "Beurre",
+              "qty": "10gr"
+            },
+            {
+              "name": "Sel",
+              "qty": "1 pincée"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Beurrez le moule à cake et préchauffez le four à 180°."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Versez le yaourt dans un saladier. Ajoutez le sucre et le sucre vanillé, mélangez. "
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Ajoutez ensuite les oeufs, un par un, en les incorporant bien à la pâte à chaque fois."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Ajoutez ensuite la farine, la levure, le sel, mélangez à nouveau et terminez en versant l’huile d’olive."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Versez cette préparation dans le moule beurré et enfournez pour 40 minutes de cuisson."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Champignons rôtis sauce soja",
+      "img": "/images/champiaufour.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/champiaufour.jpg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "20 à 25min",
+          "ingredients": [
+            {
+              "name": "Champignons de Paris",
+              "qty": "500gr"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Vinaigre balsamique",
+              "qty": "1,5 c-à-s"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": "1,5 c-à-s"
+            },
+            {
+              "name": "Gousses d'ail",
+              "qty": "x2"
+            },
+            {
+              "name": "Feuilles de basilic",
+              "qty": "x2"
+            },
+            {
+              "name": "Thym séché",
+              "qty": "1 c-à-c"
+            },
+            {
+              "name": "Sel",
+              "qty": "1 pincée"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Coupez le pied terreux des champignons. Rincez-les rapidement sous l’eau froide, coupez les plus gros en deux. L’idée est que tous les morceaux aient à peu près la même taille pour une cuisson homogène."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Mettez-les dans un saladier. Pelez les gousses d’ail et ciselez-les finement. Ajoutez aux champignons puis versez l’huile d’olive, le vinaigre balsamique, la sauce soja. Saupoudrez de thym séché et mélangez."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Etalez les champignons sur une plaque de cuisson recouverte de papier sulfurisé et enfournez dans un four préchauffé à 200°C pour 20 à 25 minutes de cuisson, chaleur tournante. Mélangez une ou deux fois pendant la cuisson."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "À la sortie du four, versez dans un plat. Goûtez, assaisonnez d’une pincée de sel si besoin et décorez de 2 feuilles de basilic."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

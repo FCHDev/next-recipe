@@ -16,6 +16,16 @@ html {
     fill: #0070f3;
 }
 
+.button-main {
+    height: 40px;
+    width: 120px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
 .svg-sizes-ingredients {
     height: 20px;
     width: 20px;
