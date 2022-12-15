@@ -8,7 +8,6 @@ const Container = ({children}) => {
             <Navbar/>
             {children}
         </div>
-
     );
 };
 

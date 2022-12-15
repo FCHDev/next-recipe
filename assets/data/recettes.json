@@ -1200,6 +1200,58 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Feuilletés au bacon et cheddar",
+      "img": "/images/feuilletescheddarbacon.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/feuilletescheddarbacon.jpg",
+          "tpsPrepa": "10min",
+          "tpsCuisson": "20min",
+          "ingredients": [
+            {
+              "name": "Pâte feuilletée rectangulaire",
+              "qty": "x1"
+            },
+            {
+              "name": "Tranches de cheddar",
+              "qty": "x6"
+            },
+            {
+              "name": "Tranches de bacon",
+              "qty": "x6 à 8"
+            },
+            {
+              "name": "Graines de sésame",
+              "qty": "1 c-à-c"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Préchauffer le four à 200°C."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Dérouler la pâte feuilletée et placer les tranches de cheddar puis celle de bacon."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Rouler la pâte feuilletée sur elle même de façon à obtenir un boudin. Placer 10 minutes au congélateur pour que la pâte durcisse un peu."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Couper des tronçons d'environ 1cm d'épaisseur et déposer sur une plaque recouverte de papier cuisson en espaçant bien entre chaque car les feuilletés vont gonfler en cuisant. Parsemer de quelques graines de sésame."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Enfourner environ 20 minutes jusqu'à ce que les feuilletés soient bien dorés."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

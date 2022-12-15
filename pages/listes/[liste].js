@@ -38,22 +38,8 @@ export default function Liste(props) {
         height={15}
         width={15}
         className="svg-sizes"/>
-    // const checked = <Image
-    //     src="/images/checked.svg"
-    //     alt="checked ingredient"
-    //     height={10}
-    //     width={10}
-    //     className="svg-sizes-ingredients"/>
-
 
     const router = useRouter()
-
-    // function iconAssociated(etape, etapes) {
-    //     if(etapes.indexOf(etape) === 0) {
-    //
-    //     }
-    // }
-
 
     return (
         <div className="container min-h-screen flex flex-col justify-center items-center mx-auto md:pt-3 md:bg-white">
@@ -72,8 +58,6 @@ export default function Liste(props) {
                 <div className="px-2 md:w-[550px] h-auto flex flex-col justify-center items-center relative" key={v4()}>
                     <Image
                         src={item.img}
-                        // height={400}
-                        // width={400}
                         sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"
                         fill
                         priority
