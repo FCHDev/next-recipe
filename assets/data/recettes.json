@@ -12,11 +12,11 @@
           "ingredients": [
             {
               "name": "Chocolat noir",
-              "qty": "200gr"
+              "qty": "200g"
             },
             {
               "name": "Beurre",
-              "qty": "100gr + 10gr"
+              "qty": "100g + 10g"
             },
             {
               "name": "Oeufs",
@@ -24,7 +24,7 @@
             },
             {
               "name": "Farine (ou poudre d'amandes)",
-              "qty": "50gr"
+              "qty": "50g"
             },
             {
               "name": "Levure chimique",
@@ -32,7 +32,7 @@
             },
             {
               "name": "Sucre en poudre",
-              "qty": "75gr"
+              "qty": "75g"
             }
           ],
           "etapes": [
@@ -76,7 +76,7 @@
             },
             {
               "name": "Persil haché",
-              "qty": "200gr"
+              "qty": "200g"
             },
             {
               "name": "Quartier de potiron",
@@ -175,7 +175,7 @@
             },
             {
               "name": "Beurre",
-              "qty": "10gr"
+              "qty": "10g"
             },
             {
               "name": "Oeufs",
@@ -227,7 +227,7 @@
             },
             {
               "name": "Farine",
-              "qty": "250gr"
+              "qty": "250g"
             },
             {
               "name": "Oeufs",
@@ -235,7 +235,7 @@
             },
             {
               "name": "Sucre en poudre",
-              "qty": "150gr"
+              "qty": "150g"
             },
             {
               "name": "Lait",
@@ -294,7 +294,7 @@
           "ingredients": [
             {
               "name": "Saumon frais",
-              "qty": "250gr"
+              "qty": "250g"
             },
             {
               "name": "Pâte feuilletée",
@@ -353,11 +353,11 @@
           "ingredients": [
             {
               "name": "Blancs de poulet",
-              "qty": "x4 soit 480gr"
+              "qty": "x4 soit 480g"
             },
             {
               "name": "Poivrons rouges",
-              "qty": "x2 soit 320gr"
+              "qty": "x2 soit 320g"
             },
             {
               "name": "Huile d'olive",
@@ -404,11 +404,11 @@
           "ingredients": [
             {
               "name": "Maccheronis",
-              "qty": "300gr"
+              "qty": "300g"
             },
             {
               "name": "Ricotta",
-              "qty": "250gr"
+              "qty": "250g"
             },
             {
               "name": "Crème fraîche",
@@ -416,7 +416,7 @@
             },
             {
               "name": "Lardons",
-              "qty": "100gr"
+              "qty": "100g"
             },
             {
               "name": "Oignon",
@@ -428,7 +428,7 @@
             },
             {
               "name": "Parmesan râpé",
-              "qty": "40gr"
+              "qty": "40g"
             },
             {
               "name": "Huile d'olive",
@@ -698,7 +698,7 @@
             },
             {
               "name": "Beurre",
-              "qty": "10gr"
+              "qty": "10g"
             },
             {
               "name": "Sel",
@@ -742,7 +742,7 @@
           "ingredients": [
             {
               "name": "Champignons de Paris",
-              "qty": "500gr"
+              "qty": "500g"
             },
             {
               "name": "Huile d'olive",
@@ -806,19 +806,19 @@
           "ingredients": [
             {
               "name": "Riz long",
-              "qty": "250gr"
+              "qty": "250g"
             },
             {
               "name": "Jambon blanc ou à l'os",
-              "qty": "250gr"
+              "qty": "250g"
             },
             {
               "name": "Carottes",
-              "qty": "80gr"
+              "qty": "80g"
             },
             {
               "name": "Petits pois frais",
-              "qty": "80gr"
+              "qty": "80g"
             },
             {
               "name": "Oignon blanc",
@@ -945,12 +945,12 @@
           "tpsCuisson": "10min",
           "ingredients": [
             {
-              "name": "Pâtes",
-              "qty": "300gr"
+              "name": "Pâtes (macaronis ou autres)",
+              "qty": "300g"
             },
             {
               "name": "Foie gras de canard (en conserve)",
-              "qty": "125gr"
+              "qty": "125g"
             },
             {
               "name": "Crème fleurette",
@@ -958,11 +958,11 @@
             },
             {
               "name": "Champignons de Paris",
-              "qty": "500gr"
+              "qty": "500g"
             },
             {
               "name": "Lard fumé",
-              "qty": "10gr"
+              "qty": "10g"
             },
             {
               "name": "Piment d'Espelette",
@@ -1006,7 +1006,7 @@
           "ingredients": [
             {
               "name": "Boulghour",
-              "qty": "200gr"
+              "qty": "200g"
             },
             {
               "name": "Poivron rouge",
@@ -1070,7 +1070,7 @@
           "ingredients": [
             {
               "name": "Brioche pur beurre",
-              "qty": "280gr"
+              "qty": "280g"
             },
             {
               "name": "Lait",
@@ -1082,15 +1082,15 @@
             },
             {
               "name": "Sucre en poudre",
-              "qty": "50gr"
+              "qty": "50g"
             },
             {
               "name": "Beurre",
-              "qty": "25gr"
+              "qty": "25g"
             },
             {
               "name": "Sucre en poudre (pour sauce)",
-              "qty": "200gr"
+              "qty": "200g"
             },
             {
               "name": "Crème liquide",
@@ -1098,7 +1098,7 @@
             },
             {
               "name": "Beurre (pour la sauce)",
-              "qty": "20gr"
+              "qty": "20g"
             },
             {
               "name": "Fleur de sel",
@@ -1129,6 +1129,73 @@
             {
               "etpNbr": 5,
               "etp": "Servez la brioche avec la sauce caramel beurre salé et servez, saupoudrez d’amandes effilées préalablement torréfiées quelques minutes à la poêle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patate douce farcie au poulet",
+      "img": "/images/patatedoucepoulet.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/patatedoucepoulet.jpg",
+          "tpsPrepa": "50min",
+          "tpsCuisson": "30min",
+          "ingredients": [
+            {
+              "name": "Patate douce (x1)",
+              "qty": "600gr"
+            },
+            {
+              "name": "Oignon",
+              "qty": "x1"
+            },
+            {
+              "name": "Blancs de poulet",
+              "qty": "250g"
+            },
+            {
+              "name": "Sauce tomate",
+              "qty": "150g"
+            },
+            {
+              "name": "Cheddar rapé",
+              "qty": "25g"
+            },
+            {
+              "name": "Origan séché",
+              "qty": "1 pincée"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "3 c-à-s"
+            },
+            {
+              "name": "Sel & poivre"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Préchauffer le four à 200°C."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Couper la patate douce en deux dans sa longueur puis poser la chair contre la plaque recouverte d'une toile ou de papier cuisson. Enfourner 45min à 1h. Piquer la chair de la patate douce pour vérifier la cuisson, elle doit être fondante."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "En parallèle peler et émincer finement l'oignon. Hacher grossièrement le poulet cru. Faire chauffer un filet d'huile d'olive dans une sauteuse puis faire revenir l'oignon quelques minutes. Ajouter le poulet et le faire dorer légèrement. Ajouter la sauce tomate, du sel et poivre puis bien mélanger."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Creuser la chair des patates douces sans abîmer la peau, l'écraser à la fourchette et la mélanger à la précédente préparation. Garnir les coques de patate douce de cette farce puis parsemer d'un peu de cheddar râpé et d'origan."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Passer sous le grill quelques minutes afin de faire gratiner. Déguster avec une belle salade ou un légume vert."
             }
           ]
         }
