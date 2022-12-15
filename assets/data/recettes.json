@@ -793,6 +793,146 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Riz cantonnais maison",
+      "img": "/images/rizcantonnais.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/rizcantonnais.jpg",
+          "tpsPrepa": "20min",
+          "tpsCuisson": "20min",
+          "ingredients": [
+            {
+              "name": "Riz long",
+              "qty": "250gr"
+            },
+            {
+              "name": "Jambon blanc ou à l'os",
+              "qty": "250gr"
+            },
+            {
+              "name": "Carottes",
+              "qty": "80gr"
+            },
+            {
+              "name": "Petits pois frais",
+              "qty": "80gr"
+            },
+            {
+              "name": "Oignon blanc",
+              "qty": "x1"
+            },
+            {
+              "name": "Gousse d'ail",
+              "qty": "x1"
+            },
+            {
+              "name": "Oeufs",
+              "qty": "x2"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": "30ml"
+            },
+            {
+              "name": "Ciboulette ciselée",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "30ml"
+            },
+            {
+              "name": "Sel",
+              "qty": "1 pincée"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Portez une casserole emplie d’eau salée à ébullition. Plongez-y le riz et laissez le cuire le temps indiqué sur l’emballage. Egouttez-le et rafraîchissez-le sous l’eau froide."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Pendant ce temps, ciselez l’oignon et coupez la gousse d’ail en deux. Taillez le jambon en dés et la carotte en brunoise. Ebouillantez la brunoise de carottes 2 à 3 minutes dans de l’eau salée puis égouttez-la et rafraichissez-la.  Procédez de même avec les petits pois."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Faites chauffer l’huile à feu vif dans un wok pour y faire frire les oignons et l’ail 2 à 3 minutes. Ajoutez la brunoise de carottes et laissez revenir environ 3 minutes en remuant sans cesse.  Ajoutez le jambon et les petits pois puis mélangez.  Cassez les oeufs dans le wok."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Quand les blancs sont pris, brouillez les oeufs avec une spatule pour les mélanger avec les autres ingrédients. Ajoutez enfin le riz et faites frire doucement pendant 2 à 3 minutes."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Déglacez avec la sauce soja puis ajoutez les cébettes ciselées. Mélangez et servez."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oeuf cocotte au bacon et Crottin de Chavignol",
+      "img": "/images/oeufsbacon.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/oeufsbacon.jpg",
+          "tpsPrepa": "10min",
+          "tpsCuisson": "10min",
+          "ingredients": [
+            {
+              "name": "Oeufs",
+              "qty": "x4"
+            },
+            {
+              "name": "Tranches de bacon",
+              "qty": "x4"
+            },
+            {
+              "name": "Crème fraiche épaisee",
+              "qty": "4 c-à-s"
+            },
+            {
+              "name": "Crottin de Chavignol",
+              "qty": "x1"
+            },
+            {
+              "name": "Brins de ciboulette",
+              "qty": "x8"
+            },
+            {
+              "name": "Sel & poivre",
+              "qty": "1 pincée"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Préchauffez le four à 180°C."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Faites dorer le bacon dans une poêle quelques minutes (pas trop, cela recuira avec l’oeuf) puis coupez-le en lamelles. Coupez le fromage de chèvre en petits cubes. Ciselez la ciboulette."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Déposez dans un ramequin l’équivalent d’une tranche de bacon. Ajouter une cuillère à soupe de crème fraîche et quelques dès de Crottin de Chavignol et l’oeuf. Salez (légèrement) & poivrez."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Séparez le blanc du jaune. Mettez juste le blanc dans le ramequin, cuisez 12 mn à 200°C puis ajoutez le jaune et cuisez 2 minutes de plus. Cette façon de procéder permet au blanc d’être cuit et au jaune d’être coulant."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "À la sortie du four, déposez quelques brins de ciboulette ciselée."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
