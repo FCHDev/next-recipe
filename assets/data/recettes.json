@@ -933,6 +933,206 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Macaronade à la bordelaise",
+      "img": "/images/macaronade.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/macaronade.jpg",
+          "tpsPrepa": "15min",
+          "tpsCuisson": "10min",
+          "ingredients": [
+            {
+              "name": "Pâtes",
+              "qty": "300gr"
+            },
+            {
+              "name": "Foie gras de canard (en conserve)",
+              "qty": "125gr"
+            },
+            {
+              "name": "Crème fleurette",
+              "qty": "250ml"
+            },
+            {
+              "name": "Champignons de Paris",
+              "qty": "500gr"
+            },
+            {
+              "name": "Lard fumé",
+              "qty": "10gr"
+            },
+            {
+              "name": "Piment d'Espelette",
+              "qty": "1 pincée"
+            },
+            {
+              "name": "Sel & poivre",
+              "qty": "1 pincée"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Mettez vos champignons dans une sauteuse anti adhésive et faites cuire à feu vif, à découvert le temps que toute l’eau s’évapore. Quand elle est presque complètement évaporée, ajoutez le lard fumé coupé en dés et laissez cuire 5/7 minutes."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Plongez les pâtes dans un grand volume d’eau salée porté à ébullition. Faites les cuire le temps indiqué sur l’emballage en choisissant l’option « al dente »."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Pendant ce temps, mettez la crème et le foie gras coupé en dés dans un casserole et faites chauffer, le temps que le foie gras fonde."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Quand les pâtes sont cuites, égouttez-les, ajoutez la crème au foie gras, les champignons. Poursuivez la cuisson 1 minute, le temps que tout soit bien chaud. Saupoudrez de piment d’Espelette, salez si besoin puis servez !"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salade de boulgour aux herbes, tomates et poivron",
+      "img": "/images/saladeboulgourtomates.jpg",
+      "type": "plat",
+      "data": [
+        {
+          "img": "/images/saladeboulgourtomates.jpg",
+          "tpsPrepa": "25min",
+          "tpsCuisson": "Aucune",
+          "ingredients": [
+            {
+              "name": "Boulghour",
+              "qty": "200gr"
+            },
+            {
+              "name": "Poivron rouge",
+              "qty": "x1"
+            },
+            {
+              "name": "Tomate",
+              "qty": "x1"
+            },
+            {
+              "name": "Brins de menthe fraîche",
+              "qty": "x2"
+            },
+            {
+              "name": "Bouquet de persil",
+              "qty": "x1"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": "2 c-à-s"
+            },
+            {
+              "name": "Sauce ponzu",
+              "qty": "1 c-à-s"
+            },
+            {
+              "name": "Poivre fraîchement moulu",
+              "qty": "1 c-à-c"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Rincez le boulgour dans une passoire.  Placez-le ensuite dans une poêle, versez 250 ml d’eau et faites cuire 15 minutes à feu doux jusqu’à ce que l’eau soit absorbée. Egouttez s’il reste un tout petit peu d’eau et Laissez refroidir. Cette préparation peut être faite à l’avance."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Quand le boulgour est refroidi, mettez-le dans un saladier."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Lavez les légumes et les herbes. Fendez le poivron en deux, épépinez-le et coupez-le en dés. Mondez la tomates et taillez-la en cubes. Hachez le persil et la menthe. Mettez le tout dans un saladier avec le boulgour."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Dans un bol, mélangez l’huile d’olive, le poivre et la sauce soja Ponzu.  Ne salez pas puisque la sauce soja est déjà salée. Arrosez la préparation dans le saladier de cette vinaigrette. Mélangez et servez !"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brioche perdue, sauce caramel au beurre salé",
+      "img": "/images/briocheperdue.jpg",
+      "type": "dessert",
+      "data": [
+        {
+          "img": "/images/briocheperdue.jpg",
+          "tpsPrepa": "30min",
+          "tpsCuisson": "10min",
+          "ingredients": [
+            {
+              "name": "Brioche pur beurre",
+              "qty": "280gr"
+            },
+            {
+              "name": "Lait",
+              "qty": "250ml"
+            },
+            {
+              "name": "Oeuf",
+              "qty": "x1"
+            },
+            {
+              "name": "Sucre en poudre",
+              "qty": "50gr"
+            },
+            {
+              "name": "Beurre",
+              "qty": "25gr"
+            },
+            {
+              "name": "Sucre en poudre (pour sauce)",
+              "qty": "200gr"
+            },
+            {
+              "name": "Crème liquide",
+              "qty": "250ml"
+            },
+            {
+              "name": "Beurre (pour la sauce)",
+              "qty": "20gr"
+            },
+            {
+              "name": "Fleur de sel",
+              "qty": "1 pincée"
+            },
+            {
+              "name": "BONUS : Amandes effilées (en lamelles)",
+              "qty": "4 c-à-s"
+            }
+          ],
+          "etapes": [
+            {
+              "etpNbr": 1,
+              "etp": "Faites chauffer au micro-ondes ou dans une casserole la crème liquide. Coupez le beurre en dés. Parallèlement, dans une poêle anti adhésive, portez à ébullition le sucre sans remuer jusqu’à ce que la coloration soit brun foncé (pas noir \uD83D\uDE00 , une jolie couleur caramel). Retirez alors du feu."
+            },
+            {
+              "etpNbr": 2,
+              "etp": "Versez la crème chauffée dans le caramel en remuant. Ajoutez le beurre en dés puis la fleur de sel. Portez le tout à ébullition et laissez frémir environ 2-3 minutes (voire un peu plus si vous la souhaitez un peu plus épaisse). Retirez du feu, mettez en pot. Laissez refroidir à température ambiante puis conserver au réfrigérateur."
+            },
+            {
+              "etpNbr": 3,
+              "etp": "Cassez l’œuf dans un saladier. Ajoutez 75 g de sucre, mélangez puis ajoutez le lait et 1 petite pincée de sel.\n\nCoupez la brioche en tranches d’1 cm d’épaisseur. Trempez-les rapidement dans le mélange réalisé précédemment."
+            },
+            {
+              "etpNbr": 4,
+              "etp": "Faites fondre 25 g de beurre dans une poêle anti-adhésive. Faites-y dorer à feu moyen vif les bâtonnets de brioche 2 minutes d’un côté puis retournez-les et poursuivez la cuisson 1 minute de l’autre."
+            },
+            {
+              "etpNbr": 5,
+              "etp": "Servez la brioche avec la sauce caramel beurre salé et servez, saupoudrez d’amandes effilées préalablement torréfiées quelques minutes à la poêle."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
